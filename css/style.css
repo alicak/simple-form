@@ -1,0 +1,56 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 15rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 6.0rem;
+}
+
+.title {
+    font-size: 6.0rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.small {
+    font-size: 1.0rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
+
+.middle-text {
+    margin-bottom: 6.0rem;
+    text-align: center;
+}
+
+.bottom-text {
+    padding-top: 1.0rem;
+    font-size: 1.0rem;
+}
+
+#submit, ::placeholder {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.thank-you {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}

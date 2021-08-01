@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="sk-SK">
+<head>
+  <meta charset="utf-8">
+  <title>It's going to be great</title>
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;500;600&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">My great page is coming soon</h1>
+        </div>
+
+        <div class="middle-text">
+            <p>Give me your email and be the first to know!</p>
+        </div>
+
+        <div id="form-container">
+            <form id="form" name="my-form">
+                <div class="row">
+                    <div id="email-container" class="eight columns">
+                        <input id="email" class="u-full-width" type="text" name="email" placeholder="Your email" onkeydown="resetColor(this)">
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="contact_me" value="1" style="display:none !important" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <div class="four columns">
+                        <button id="submit" type="submit">Let me know!</button>
+                    </div>
+                </div>
+                <p class="bottom-text">I promise to use your email address only to inform you about the launch.</p>
+            </form> 
+        </div>
+    </div>
+
+    <script src="./submit.js"></script>
+</body>
+</html>
